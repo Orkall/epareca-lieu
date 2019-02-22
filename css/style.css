@@ -1,0 +1,478 @@
+/* Bootstrap Modification */
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-md-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.font{
+   background-image: url(../picture/fond.png);
+   background-size: cover;
+   height: 15rem;
+   background-repeat: no-repeat;
+
+}
+.color-grey{
+   width: 100%;
+   height: 100%;
+   background-color: #465661;
+   opacity: 0.93;
+   text-align: center;
+}
+.color-grey h1 {
+   color: #fff;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.2rem;
+   padding-top: 5.5rem;
+   font-style: italic;
+   font-weight: lighter;
+   letter-spacing: 0.1rem;
+}
+.color-grey h2{
+   color: #fff;
+   font-size: 2.2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height:1rem;
+   padding-bottom: 5.5rem;
+
+}
+
+.blockplus{
+
+   width: 20.5%;
+   position: absolute;
+   padding: 2rem;
+   border-top: 4px solid #465661;
+   background-color: #fff;
+   box-shadow: 0px 18px 40px 0px rgba(17, 22, 26, 0.23);
+   font-family: Arial;
+   left: 8.5%;
+    top: 45%;
+   min-height: 20rem;
+   display: none;
+   
+}
+.blockplus h2{
+   text-align: center;
+   font-size: 12px;
+}
+
+.blockplus li ::before{
+   background-image: url(../picture/Polygone.png);
+   width: 1rem;
+   height: 1rem;
+}
+/* tabs */
+li[aria-selected='true'] {
+  font-weight: bold;
+  color: black;
+  background-color: #fff;
+}
+
+div[aria-hidden='true'] {
+display: none;
+}
+
+ul.tablist{
+  text-align: left;
+  margin-bottom: 0;
+}
+
+ul.tablist li:focus,
+ul.tablist li:hover{
+  text-decoration: underline;
+}
+ul.tablist li[aria-selected="false"]{
+  background-color: #465661;
+  color: #FFF;
+}
+
+ul.tablist li{
+
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  list-style: none;
+  background: none;
+  border-radius: 1% 25% / 0% 100%;
+}
+
+div#panel1,
+div#panel2{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  z-index: 1;
+  margin-top: -1px;
+}
+.popin{
+   display: none;
+   position: relative;
+}
+.pastille{
+   top: 0;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   background-color: white;
+}
+
+#pastilleone{
+   border-radius: 50%;
+   font-size: 2rem;
+   height: 4rem;
+   width: 4rem;
+   display: flex;
+   border: 4px solid #465661;
+   align-items: center;
+   justify-content: center;
+}
+.france{
+   width: 70%;
+   margin: auto;
+   display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .jesuisunetatdeslieux section.header, .reseauOperateursCommerce section.header, .bandeau-actualites, .nousrejoindre section.header, .mentionsLegales section.header, .contactus section.header{
+   padding-top:5rem;
+   padding-bottom: 5rem;
+   background-image: url('/wp-content/themes/twentyseventeen-child/image/jesuisunetatdeslieux/jesuisunetatdeslieux.png');
+} */
+
+/* .jesuisunetatdeslieux section.header p, .reseauOperateursCommerce section.header p{
+   font-family: Arial;
+   color: #FFF;
+   font-size: 1rem;
+   text-align: center;
+   margin-right: 1rem;
+   margin-left: 1rem;
+} */
+/* .jesuisunetatdeslieux section.header p:nth-of-type(1){
+    margin-bottom: 2rem;
+ } */
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux{
+    background-color: #FFF;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left:8.5vw;
+    padding-right: 8.5vw;
+    position: relative;
+ }
+ 
+ /* .jesuisunetatdeslieux section.etat-des-lieux h2{
+    color: #000;
+    width: 30rem;
+ } */
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat{
+    width: 25%;
+    font-family: Arial;
+    box-shadow: 5px 4px 30px 0px #dadada;
+    display: inline-block;
+    vertical-align: top;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul{
+    padding: 0;
+    list-style: none;
+    display: block;
+    align-items: unset;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li{
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background: #FFF;
+    line-height: 0.9rem;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li.active{
+    background: #6c7f8d;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li a{
+    color: #6c7f8d;
+    width:100%;
+    height: 100%;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li a span.icon,
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses h3 span.icon{
+    width: 2.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    border: 1px solid #6c7f8d;
+    position: relative;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li.active a span.icon{
+    border-color: #FFF;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li a span.icon i,
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses h3 span.icon i{
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li a span.text,
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses h3 span.text{
+    display: inline-block;
+    width: 75%;
+    padding-left:1rem;
+    vertical-align: middle;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li.active a{
+    color: #fff;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.9rem;
+    background: #FFF;
+    min-height: 20rem;
+    padding:0;
+    box-shadow: 5px 4px 30px 0px #dadada;
+    font-family: Arial;
+    margin-left: 4%;
+    border-left: solid 4px #6c7f8d;
+ }
+ .rep.blockFrance{
+  padding: 0
+ }
+ .rep{
+    padding: 2rem;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses h3{
+    font-size:1rem;
+    text-transform: uppercase;
+    color: #6c7f8d;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses > div{
+    position: absolute;
+    left: -5000px;
+    top: -5000px;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses > div.active{
+    position: relative;
+    left: auto;
+    top: auto;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux .paraphQuestion{
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 5rem;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses h4{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #6c7f8d;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses a{
+    color: #6c7f8d;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul{
+    display: block;
+    align-items: unset;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul.base li::before{
+    content: '-  ';
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul.style{
+    background: #00aed9;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    height:auto;
+    width:40%;
+    border-radius: 2rem;
+    padding:2rem;
+    margin-left: 6.5%;
+    margin-top: 2rem;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul.style h4{
+    color: #FFF;
+    margin-top: 0;
+    text-transform: none;
+    text-align: center;
+    font-size: 1.2rem;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul.style li::before{
+  content: "•";
+  margin-right: 1rem;
+  color: #fff;
+  display: inline-block;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul.style li{
+    margin-bottom: 0.5rem;
+ }
+ 
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul.style li span{
+    display: inline-block;
+    width: 90%;
+    vertical-align: top;
+ }
+ 
+ .jesuisunetatdeslieux #schema{
+    width: 45rem;
+ }
+ @media screen and (max-width: 1024px){
+    .jesuisunetatdeslieux section.etat-des-lieux div.reponses{
+        margin-top: 1rem;
+        width: 100%;
+        margin-left: 0;
+    }
+    .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat{
+        width: 100%;
+    }
+    .jesuisunetatdeslieux #schema{
+        width: 100%;
+    }
+    .jesuisunetatdeslieux section.etat-des-lieux div.reponses ul.style{
+      width: 80%;
+      margin:auto;
+      display: block;
+      margin-top: 1rem;
+    }
+    main.searchlocal  h1 span.text-uppercase{
+        font-family: Arial !important;
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        display: block;
+        font-weight: bold;
+        font-style: normal !important;
+        display: block;
+     }
+     main.investisseurs section#sites h1 span.text-uppercase{
+        font-family: Arial !important;
+        font-style: normal;
+        font-size: 2.3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        display: block;
+        font-weight: bold;
+     }
+ }
+ main#main section#multiblock #reconqueteProcess ol li.step {
+    width: 100%;
+    position: relative;
+    padding: 2rem;
+    border-top: 3px solid #465661;
+    background-color: #fff;
+    box-shadow: 0px 5px 35px 0px rgba(7, 15, 19, 0.12);
+    font-family: Arial;
+}
+main#main section#multiblock #reconqueteProcess ol {
+    width: 100%;
+    counter-reset: item;
+    position: inherit;
+}
+main#main section#multiblock #partenariat {
+    margin: 3rem auto;
+}
+main#main section#multiblock {
+    padding: 9vh 8vw;
+}
+main#main section#multiblock #reconqueteProcess {
+    position: relative;
+    width: auto;
+}
+main#main section#multiblock #reconqueteProcess img.bg-step {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 80%;
+}
+main#main section#multiblock #reconqueteProcess ol li.step img.number-strip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-50%);
+    width: 100%;
+}
+main#main section#multiblock #reconqueteProcess ol li.step img.img-step {
+    margin: 2rem auto;
+    width: 4rem;
+}
+main#main section#multiblock #partenariat .blue-line {
+    border-top: 0.3rem dotted #00acd7;
+}
+main#main section#multiblock #partenariat .blue-line:last-of-type {
+    position: relative;
+}
+/* .jesuisunetatdeslieux h1, .etat-des-lieux h2, .nouscontacter h2, .reseauOperateursCommerce h1{
+   z-index: 2;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   width: 17rem;
+   top: 7rem;
+   color: #fff;
+   font-size: 2.2rem;
+   line-height: 2.2rem;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 3rem;
+}
+
+
+.jesuisunetatdeslieux h1 span, .etat-des-lieux h2 span, .nouscontacter h2 span, .reseauOperateursCommerce h1 span{
+   font-family: Arial !important;
+   font-size: 2.2rem;
+   text-transform: uppercase;
+   display: block;
+   font-weight: bold;
+   font-style: normal !important;
+   display: block;
+} */
