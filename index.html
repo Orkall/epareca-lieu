@@ -62,28 +62,20 @@
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" onclick="showReponse(this, event)" data-reponse="reponse4">
+                        <a href="javascript:void(0)" onclick="showSecondMaps(this, event)" data-reponse="reponse4">
                             <span class="icon">
                                 <i class="fas fa-archive"></i>
-
                             </span>
                             <span class="text">
                                 ÉTAT DES LIEUX 2008 - 2010
                                 <!-- Quels sont les principes de financement des opérations ? -->
-
                             </span>
                         </a></li>
-
                 </ul>
-
-               
             </div>
-            
-            <!-- <div class="onglet-etat">
-   
-</div>  -->
 
             <div class="reponses">
+
                 <div id="reponse1" class="rep active">
                     <h3 tabindex="0">
                         <span class="icon">
@@ -133,29 +125,44 @@
 
                         <h3 tabindex="0"></h3>
                         <img class="france" src="./picture/france.svg" alt="carte de la france ">
+
+                        <p class="title-echelle">nombre de polarité par departement :</p>
+                        <div class="echelle">
+                            <br>
+                            <span class="pastille-couleur"></span>
+                            <p>Pas de quartier </p>
+                            <span class="pastille-couleur1"></span>
+                            <p>1 quartier</p>
+                            <span class="pastille-couleur2"></span>
+                            <p>> 1 quartier</p>
+                        </div>
                     </div>
                     <div id="panel2" class="panel" aria-labelledby="tab2" aria-hidden="true" role="tabpanel">
                         <h3 tabindex="0"></h3>
                         <img class="france" src="./picture/france-artisan.svg" alt="carte de la france ">
-                        <p></p>
+                        <p class="title-echelle">nombre de polarité par departement :</p>
+                        <div class="echelle">
+                            <br>
+                            <span class="pastille-couleur"></span>
+                            <p>Pas de quartier </p>
+                            <span class="pastille-couleur1"></span>
+                            <p>1 quartier</p>
+                            <span class="pastille-couleur2"></span>
+                            <p>> 1 quartier</p>
+                        </div>
                     </div>
-
                 </div>
                 <div id="reponse4" class="rep">
                     <h3 tabindex="0">
-                        <span class="icon">
-                            <i class="fas fa-archive"></i>
-                        </span>
-                        <span class="text">ÉTAT DES LIEUX 2008 - 2010</span>
+
+                        <img class="france1" src="./picture/france.svg" alt="carte de la france ">
                     </h3>
                 </div>
             </div>
-
-           
             <div class="blockplus">
-                    <span class="pastille">
-                            <i id="pastilleone" class="fas fa-cogs"></i>
-                        </span>
+                <span class="pastille">
+                    <i id="pastilleone" class="fas fa-exclamation"></i>
+                </span>
                 <h2>DONNÉES CLEF </h2>
                 <ul>
                     <li>1,07 million d habitants concernés</li>
@@ -163,6 +170,16 @@
                     <li>un potentiel de consommation de 6,15 milliards d'euros</li>
                     <li>7 locaux commerciaux pour 1000 habitants en moyenne</li>
                 </ul>
+                <a class="bouton-etat2" href="">TÉLÉCHARGEZ <br>LA SYNTHÉSE</a>
+            </div>
+            <div class="blockplusplus">
+                <span class="pastille">
+                    <i id="pastilleone" class="fas fa-exclamation"></i>
+                </span>
+                <h2>POLARITÉ COMMERCIALE </h2>
+                <P>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                    beatae vitae dicta sunt explicabo.</P>
             </div>
         </section>
         <section id="multiblock" class="container-fluid text-center">
@@ -171,39 +188,95 @@
             </div>
 
             <div class="row" id="reconqueteProcess">
-                    
+
                 <ol class="d-lg-inline-flex flex-lg-row flex-colmun list-unstyled">
-                    <li class="mx-lg-2 mx-xl-4 step popin">
+                    <li class="mx-lg-2 mx-xl-4  popin2">
                         <span class="pastille">
-                            <i id="pastilleone" class="fas fa-cogs"></i>
+                            <i id="pastilleone" class="fas fa-cloud-download-alt"></i>
                         </span>
-                        <p class="text-uppercase">
-                            <span>coucou c'est nous</span>    
-                        </p>
+                        <div class="block-inferieur">
+                            <h2>DONNÉES CLEF </h2>
+                            <P>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur
+                                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur</P>
+                            <a class="bouton-etat2" href="">TÉLÉCHARGEZ <br>LA SYNTHÉSE</a>
+                        </div>
                     </li>
-                    <li class="mx-lg-2 mx-xl-4 step popin">
-                            <span class="pastille">
-                                    <i id="pastilleone" class="fas fa-cogs"></i>
-                                </span>
-                        <p class="text-uppercase">
-                            <span>coucou c'est nous</span>
-                        </p>
+                    <div class="ligne"></div>
+                    <li class="mx-lg-2 mx-xl-4  popin">
+
+                        <span class="pastille">
+                            <i id="pastille1" class="fas fa-exclamation-circle"></i>
+                        </span>
+                        <div class="block-inferieur">
+                            <h2>DONNÉES CLEF </h2>
+                            <ul>
+                                <li>1,07 million d habitants concernés</li>
+                                <li>370 000 salariés concernés</li>
+                                <li>un potentiel de consommation de 6,15 milliards d'euros</li>
+                                <li>7 locaux commerciaux pour 1000 habitants en moyenne</li>
+                            </ul>
+                            <a class="bouton-etat" href="">TÉLÉCHARGEZ <br>SYNTHÉSE</span> </a>
+                        </div>
                     </li>
-                    <li class="mx-lg-2 mx-xl-4 step popin">
-                            <span class="pastille">
-                                    <i id="pastilleone" class="fas fa-cogs"></i>
-                                </span>
-                        <p class="text-uppercase">
-                            <span>coucou c'est nous</span>
-                        </p>
+                    <li class="mx-lg-2 mx-xl-4  popin">
+                        <span class="pastille">
+                            <i id="pastille1" class="fas fa-exclamation-circle"></i>
+                        </span>
+                        <div class="block-inferieur">
+                            <h2>DONNÉES CLEF </h2>
+                            <ul>
+                                <li>1,07 million d habitants concernés</li>
+                                <li>370 000 salariés concernés</li>
+                                <li>un potentiel de consommation de 6,15 milliards d'euros</li>
+                                <li>7 locaux commerciaux pour 1000 habitants en moyenne</li>
+                            </ul>
+                            <a class="bouton-etat" href="">TÉLÉCHARGEZ <br>LA SYNTHÉSE</a>
+                        </div>
+
                     </li>
-                    <li class="mx-lg-2 mx-xl-4 step popin">
-                            <span class="pastille">
-                                    <i id="pastilleone" class="fas fa-cogs"></i>
-                                </span>
-                        <p class="text-uppercase">
-                            <span>coucou c'est nous</span>
-                        </p>
+                    <li class="mx-lg-2 mx-xl-4 popin">
+                        <span class="pastille">
+                            <i id="pastille1" class="fas fa-exclamation-circle"></i>
+                        </span>
+                        <div class="block-inferieur">
+                            <h2>DONNÉES CLEF </h2>
+                            <ul>
+                                <li>1,07 million d habitants concernés</li>
+                                <li>370 000 salariés concernés</li>
+                                <li>un potentiel de consommation de 6,15 milliards d'euros</li>
+                                <li>7 locaux commerciaux pour 1000 habitants en moyenne</li>
+                            </ul>
+                            <a class="bouton-etat" href="">TÉLÉCHARGEZ <br>LA SYNTHÉSE</a>
+                        </div>
+
+                    </li>
+                    <li class="mx-lg-2 mx-xl-4 popin3">
+                        <span class="pastille">
+                            <i id="pastilleone" class="fas fa-archive"></i>
+                        </span>
+                        <div class="block-inferieur">
+
+                            <P>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur
+                                totam rem aperiam, eaque ipsa quae</p><br>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                                aspernatur
+                                totam rem aperiam, eaque ipsa quae </P>
+
+                        </div>
+
                     </li>
                 </ol>
             </div>

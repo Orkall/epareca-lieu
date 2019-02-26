@@ -39,26 +39,63 @@
 
    width: 20.5%;
    position: absolute;
-   padding: 2rem;
+   padding: 1rem;
    border-top: 4px solid #465661;
    background-color: #fff;
    box-shadow: 0px 18px 40px 0px rgba(17, 22, 26, 0.23);
    font-family: Arial;
    left: 8.5%;
-    top: 45%;
-   min-height: 20rem;
+    bottom:5rem;
+   min-height: 15rem;
    display: none;
    
 }
 .blockplus h2{
    text-align: center;
-   font-size: 12px;
+   font-size: 14px;
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
 }
 
-.blockplus li ::before{
-   background-image: url(../picture/Polygone.png);
-   width: 1rem;
-   height: 1rem;
+.blockplus li{
+font-family: Arial;
+color:  #5b5b5b;
+font-size: 12px;
+font-weight: 400;
+text-align: left;
+}
+.blockplus ul{
+   list-style-image: url(../picture/Polygone.png);
+
+}
+.blockplusplus{
+   width: 20.5%;
+   position: absolute;
+   padding: 1rem;
+   border-top: 4px solid #465661;
+   background-color: #fff;
+   box-shadow: 0px 18px 40px 0px rgba(17, 22, 26, 0.23);
+   font-family: Arial;
+   left: 8.5%;
+   top:50%;
+   min-height: 15rem;
+   display: none;
+}
+.blockplusplus h2{
+   text-align: center;
+   font-size: 14px;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+}
+
+.blockplusplus p{
+font-family: Arial;
+color:  #5b5b5b;
+font-size: 12px;
+font-weight: 400;
+padding: 1rem;
+margin-top: 1rem;
+text-align:center;
 }
 /* tabs */
 li[aria-selected='true'] {
@@ -107,14 +144,67 @@ div#panel2{
 }
 .popin{
    display: none;
-   position: relative;
+   box-shadow: 0px 18px 40px 0px rgba(17, 22, 26, 0.23);
+   width: 20%;
+    position: relative;
+    padding: 2rem;
+    border-top: 3px solid #465661;
+    background-color: #fff;
+    font-family: Arial;
 }
+.popin2{
+display: none;
+box-shadow: 0px 18px 40px 0px rgba(17, 22, 26, 0.23);
+width: 40%;
+ position: relative;
+ padding: 2rem;
+ border-top: 3px solid #465661;
+ background-color: #fff;
+ font-family: Arial;
+}
+.popin3{
+   display: none;
+   box-shadow: 0px 18px 40px 0px rgba(17, 22, 26, 0.23);
+   width: 100%;
+    position: relative;
+    padding: 2rem;
+    border-top: 3px solid #465661;
+    background-color: #fff;
+    font-family: Arial;
+   }
+
 .pastille{
    top: 0;
    position: absolute;
    transform: translate(-50%,-50%);
    left: 50%;
    background-color: white;
+}
+.block-inferieur h2{
+   text-align: center;
+   font-size: 20px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+.block-inferieur p{
+   font-family: Arial;
+   color: #5b5b5b;
+   font-size: 12px;
+   font-weight: 400;
+   text-align: left;
+}
+.block-inferieur ul {
+   padding-left: 0.5rem;
+}
+.block-inferieur li{
+   font-family: Arial;
+   color: #5b5b5b;
+   font-size: 12px;
+   font-weight: 400;
+   text-align: left;
+}
+.block-inferieur li:last-of-type {
+   margin-bottom: 2rem;
 }
 
 #pastilleone{
@@ -123,67 +213,117 @@ div#panel2{
    height: 4rem;
    width: 4rem;
    display: flex;
+   color: #465661;
+   background-color: #fff;
    border: 4px solid #465661;
    align-items: center;
    justify-content: center;
 }
 .france{
-   width: 70%;
+   width: 60%;
    margin: auto;
    display: flex;
+   margin-bottom: 1rem;
+}
+.france1{
+   width: 80%;
+   margin: auto;
+   display: flex;
+   margin-bottom: 1rem;
 }
 
+#pastille1{
+   border-radius: 50%;
+   font-size: 3.8rem;
+   height: 4rem;
+   width: 4rem;
+   display: flex;
+   color: #465661;
+   border: 4px solid #465661;
+   background-color: #fff;
+   align-items: center;
+   justify-content: center;
+}
 
+.ligne {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .jesuisunetatdeslieux section.header, .reseauOperateursCommerce section.header, .bandeau-actualites, .nousrejoindre section.header, .mentionsLegales section.header, .contactus section.header{
-   padding-top:5rem;
-   padding-bottom: 5rem;
-   background-image: url('/wp-content/themes/twentyseventeen-child/image/jesuisunetatdeslieux/jesuisunetatdeslieux.png');
-} */
-
-/* .jesuisunetatdeslieux section.header p, .reseauOperateursCommerce section.header p{
+   border-top: 0.3rem dotted #465661;
+    width: 30%;
+    z-index: -1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: none;
+}
+.bouton-etat{
    font-family: Arial;
-   color: #FFF;
-   font-size: 1rem;
+   color: #465661;
+   font-size: 0.7rem;
+   padding: 1rem;
+   font-weight: 700;
+   letter-spacing: 0.025rem;
+   border-width: 0.2rem;
+   border-color: #465661;;
+   border-style: solid;
+   width: 10rem;
+   border-radius: unset;
+   height: auto;
+   display: block;
+   margin: auto;
    text-align: center;
-   margin-right: 1rem;
-   margin-left: 1rem;
-} */
-/* .jesuisunetatdeslieux section.header p:nth-of-type(1){
-    margin-bottom: 2rem;
- } */
- 
+}
+.bouton-etat2{
+   font-family: Arial;
+   color: #fff;
+   background-color: #465661;
+   font-size: 0.7rem;
+   padding: 1rem;
+   font-weight: 700;
+   letter-spacing: 0.025rem;
+   border-width: 0.2rem;
+   border-color: #465661;;
+   border-style: solid;
+   width: 10rem;
+   border-radius: unset;
+   height: auto;
+   display: block;
+   margin: auto;
+   text-align: center;
+}
+.echelle{
+   display:inline-flex;
+   padding-left: 20%;
+}
+.echelle p{
+margin-right: 1rem;
+text-align: center;
+}
+.title-echelle{
+   padding-left: 21%;
+   margin-top: 1rem;
+}
+.pastille-couleur{
+   width:10px;
+   height:10px;
+   border-radius:50%;
+   background:#b9d0e0;
+   margin:5px 5px;
+}
+.pastille-couleur1{
+   width:10px;
+   height:10px;
+   border-radius:50%;
+   background:#96B9D2;
+   margin:5px 5px;
+}
+.pastille-couleur2{
+   width:10px;
+   height:10px;
+   border-radius:50%;
+   background:#5b92b9;
+   margin:5px 5px;
+}
+
  .jesuisunetatdeslieux section.etat-des-lieux{
     background-color: #FFF;
     padding-top: 5rem;
@@ -193,10 +333,7 @@ div#panel2{
     position: relative;
  }
  
- /* .jesuisunetatdeslieux section.etat-des-lieux h2{
-    color: #000;
-    width: 30rem;
- } */
+
  .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat{
     width: 25%;
     font-family: Arial;
@@ -210,6 +347,7 @@ div#panel2{
     list-style: none;
     display: block;
     align-items: unset;
+    margin: 0;
  }
  
  .jesuisunetatdeslieux section.etat-des-lieux div.onglet-etat ul li{
@@ -277,6 +415,9 @@ div#panel2{
     font-family: Arial;
     margin-left: 4%;
     border-left: solid 4px #6c7f8d;
+ }
+ .jesuisunetatdeslieux section.etat-des-lieux div.reponses p{
+    margin-top: 1rem;
  }
  .rep.blockFrance{
   padding: 0
@@ -423,7 +564,7 @@ main#main section#multiblock #partenariat {
     margin: 3rem auto;
 }
 main#main section#multiblock {
-    padding: 9vh 8vw;
+    padding: 0vh 8vw;
 }
 main#main section#multiblock #reconqueteProcess {
     position: relative;
@@ -446,33 +587,6 @@ main#main section#multiblock #reconqueteProcess ol li.step img.img-step {
     margin: 2rem auto;
     width: 4rem;
 }
-main#main section#multiblock #partenariat .blue-line {
-    border-top: 0.3rem dotted #00acd7;
-}
 main#main section#multiblock #partenariat .blue-line:last-of-type {
     position: relative;
 }
-/* .jesuisunetatdeslieux h1, .etat-des-lieux h2, .nouscontacter h2, .reseauOperateursCommerce h1{
-   z-index: 2;
-   font-family: 'Times New Roman', Times, serif;
-   font-style: italic;
-   width: 17rem;
-   top: 7rem;
-   color: #fff;
-   font-size: 2.2rem;
-   line-height: 2.2rem;
-   margin: auto;
-   text-align: center;
-   margin-bottom: 3rem;
-}
-
-
-.jesuisunetatdeslieux h1 span, .etat-des-lieux h2 span, .nouscontacter h2 span, .reseauOperateursCommerce h1 span{
-   font-family: Arial !important;
-   font-size: 2.2rem;
-   text-transform: uppercase;
-   display: block;
-   font-weight: bold;
-   font-style: normal !important;
-   display: block;
-} */

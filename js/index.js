@@ -18,8 +18,11 @@ function showReponse(el, e) {
   
     document.querySelector('#' + reponse + " h3").focus();
     // console.log(document.querySelector('#' + reponse));
+    document.querySelector(".blockplusplus").style.display ="none";
     document.querySelector(".blockplus").style.display ="none";
-    
+    document.querySelector(".ligne").style.display ="none";
+    document.querySelector(".popin2").style.display ="none";
+    document.querySelector(".popin3").style.display ="none";
     document.querySelectorAll(".popin").forEach(function(node){
       node.style.display ="none";
     }  
@@ -48,9 +51,43 @@ function showMaps(el, e) {
 
   document.querySelector('#' + reponse + " h3").focus();
   // console.log(document.querySelector('#' + reponse));
+  document.querySelector(".blockplusplus").style.display ="none";
+  document.querySelector(".popin3").style.display ="none";
   document.querySelector(".blockplus").style.display ="block";
+  document.querySelector(".popin2").style.display ="block";
+  document.querySelector(".ligne").style.display ="block";
   document.querySelectorAll(".popin").forEach(function(node){
     node.style.display ="block";
+  }  
+  );
+}
+function showSecondMaps(el, e) {
+  e.preventDefault();
+  var parent = el.parentElement;
+  var reponse = el.getAttribute('data-reponse');
+  var li = document.querySelectorAll('.onglet-etat ul li');
+  var reponses = document.querySelectorAll('.reponses .rep');
+  for (var i = 0; i < li.length; i++) {
+    li[i].classList.remove('active');
+  }
+
+  for (var i = 0; i < reponses.length; i++) {
+    reponses[i].classList.remove('active');
+  }
+  console.log(reponses)
+  parent.classList.add('active');
+  document.querySelector('#' + reponse).classList.add('active');
+  console.log(document.querySelector('#' + reponse));
+
+  document.querySelector('#' + reponse + " h3").focus();
+  // console.log(document.querySelector('#' + reponse));
+  document.querySelector(".blockplusplus").style.display ="block";
+  document.querySelector(".popin3").style.display ="block";
+  document.querySelector(".blockplus").style.display ="none";
+  document.querySelector(".popin2").style.display ="none";
+  document.querySelector(".ligne").style.display ="none";
+  document.querySelectorAll(".popin").forEach(function(node){
+    node.style.display ="none";
   }  
   );
 }
