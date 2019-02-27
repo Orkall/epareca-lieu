@@ -23,6 +23,7 @@ function showReponse(el, e) {
     document.querySelector(".ligne").style.display ="none";
     document.querySelector(".popin2").style.display ="none";
     document.querySelector(".popin3").style.display ="none";
+    document.querySelector(".partie-invisible").style.display ="none";
     document.querySelectorAll(".popin").forEach(function(node){
       node.style.display ="none";
     }  
@@ -55,7 +56,8 @@ function showMaps(el, e) {
   document.querySelector(".popin3").style.display ="none";
   document.querySelector(".blockplus").style.display ="block";
   document.querySelector(".popin2").style.display ="block";
-  document.querySelector(".ligne").style.display ="block";
+  document.querySelector(".partie-invisible").style.display ="block";
+  // document.querySelector(".ligne").style.display ="block";
   document.querySelectorAll(".popin").forEach(function(node){
     node.style.display ="block";
   }  
@@ -86,6 +88,7 @@ function showSecondMaps(el, e) {
   document.querySelector(".blockplus").style.display ="none";
   document.querySelector(".popin2").style.display ="none";
   document.querySelector(".ligne").style.display ="none";
+  document.querySelector(".partie-invisible").style.display ="none";
   document.querySelectorAll(".popin").forEach(function(node){
     node.style.display ="none";
   }  
